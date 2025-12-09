@@ -1,0 +1,10 @@
+header{
+    background: white;
+    display: flex;
+
+}
+
+nav{
+    display: flex;
+    justify-content: left;
+}
