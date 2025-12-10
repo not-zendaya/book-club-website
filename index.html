@@ -9,191 +9,212 @@
 <body>
     <div class="container">
         <header>
-            <img src="https://bookclubs.com/media/images/new-homepage/logo-orange.svg">
-            <nav>
+            <img src="https://bookclubs.com/media/images/new-homepage/logo-orange.svg" class="logo" alt="logo" width="150" height="60">
+            <nav class="navbar">
                 <ul>
                     <li class="home"><a href="https://bookclubs.com/join-a-book-club">Join a Book Club</a></li>
-                    <li class="home">Find a book
-                        <li><a href="https://bookclubs.com/books">Search a Book</a> </li>
-                        <li> <a href="https://bookclubs.com/best-book-club-books/this-month">Top Books</a> </li>
-                        <li> <a href="https://bookclubs.com/great-indie-books">Great Indie Books</a> </li>
-                        <li> <a href="https://bookclubs.com/giveaways">Giveaways</a> </li>
+                    <li class="sub">
+                        <button class="sub-menu-btn">Find a Book</button>
+                        <ul class="sub-menu">
+                           <li><a href="https://bookclubs.com/books">Search a Book</a></li>
+                           <li><a href="https://bookclubs.com/best-book-club-books/this-month">Top Books</a></li>
+                           <li><a href="https://bookclubs.com/great-indie-books">Great Indie Books</a></li>
+                           <li><a href="https://bookclubs.com/giveaways">Giveaways</a></li>
+                        </ul>
                     </li>
-                    <li class="home"><a href="#">Blog</a></li>
-                    <li class="home"><a href="#">Discussion guides</a></li>
-                    <li class="home"><a href="#">Sign in</a></li>
-                    <button>Sign Up</button>
+                    <li class="home"><a href="/blog">Blog</a></li>
+                    <li class="home"><a href="/discussion-guides">Discussion guides</a></li>
+                    <li class="home"><a href="sign-in">Sign in</a></li>
+                    <button class="sign-up-btn">Sign Up</button>
                 </ul>
             </nav>
         </header>
 
-        <section>
-            <h2>Your secret to an organized book club</h2>
-            <p>Manage, start or join a book club with ease.</p>
-            <button>START A CLUB</button>
-            <img src="">
-        </section>
-
-        <section>
-            <h2>
-                Get Organized.Stay Together.
-            </h2>
-            <p>
-                Set up your online or in-person book club with digital bookshelves, polls, meetings, member management and more.
-            </p>
-            <div class="media-content">
-                <div class="media-item">
-                    <div class="media-image">
-                        <img src="">
-                        <h3>Meetups made easy</h3>
-                        <p class="media-description">Easily scheule and manage events, add memebers, send reminders and track attendance.</p>
-                    </div>
+        <main>
+            <section class="hero-section">
+                <div class="hero-content">
+                    <h1>Your secret to an organized book club</h1>
+                <p>Manage, start or join a book club with ease.</p>
+                <button class="start-club-btn">START A CLUB</button>
                 </div>
-                <div class="media-item">
-                    <div class="media-image">
-                        <img src="">
-                        <h3>Vote on what's next</h3>
-                        <p class="media-description">Poll members on the books you want to read and choose meeting dates and times.</p>
+                <div class="hero-image">
+                    <img src="images/banner_home.webp" alt="hero-banner" width="900px" height="400px">
+                </div> 
+            </section>
+            
+            <section class="features">
+                <h2 class="features-title">
+                    Get Organized.Stay Together.
+                </h2>
+                <p class="features-subtitle">
+                    Set up your online or in-person book club with digital bookshelves, polls, meetings, member management and more.
+                </p>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <div class="item-image">
+                            <img src="images/img-feature-1.webp" width="280px" height="280px">
+                            <h3>Meetups made easy</h3>
+                            <p>Easily scheule and manage events, add memebers, send reminders and track attendance.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="media-item">
-                    <div class="media-image">
-                        <img src="">
-                        <h3>Keep tabs on past reads</h3>
-                        <p class="media-description">Check what you're reading next, view your reading history and share book recommendations.</p>
+                    <div class="feature-item">
+                        <div class="item-image">
+                            <img src="images/img-feature-2.webp" width="280px" height="280px">
+                            <h3>Vote on what's next</h3>
+                            <p>Poll members on the books you want to read and choose meeting dates and times.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="media-item">
-                    <div class="media-image">
-                        <img src="">
-                        <h3>Stay connected with chat</h3>
-                        <p class="media-description">Connect with your book club members through group message boards and DMs.</p>
+                    <div class="feature-item">
+                        <div class="item-image">
+                            <img src="images/img-feature-3.webp" width="280px" height="280px">
+                            <h3>Keep tabs on past reads</h3>
+                            <p>Check what you're reading next, view your reading history and share book recommendations.</p>
+                        </div>
                     </div>
+                    <div class="feature-item">
+                        <div class="item-image">
+                            <img src="images/img-feature-4.webp" width="280px" height="280px">
+                            <h3>Stay connected with chat</h3>
+                            <p class=>Connect with your book club members through group message boards and DMs.</p>
+                        </div>
+                    </div>  
                 </div>
-            <p>Your Book Club is worth it!!</p>
-            <button>
-                GET ORGANIZED
-            </button>
-            </div>
-        </section>
-
-        <section>
-            <div>
+                <p>Your Book Club is worth it!!</p>
+                <button class="get-organized-btn">
+                    GET ORGANIZED
+                </button>
+            </section>
+            
+            <section class="book-of-the-month">
                 <div>
-                    <div class="book-image">
-                        <img src="">
+                    <img src="https://m.media-amazon.com/images/I/518rYKZUMyL._SL500_.jpg" alt="book-of-the month" width="400px">   
+                </div>
+                
+                <div class="book-info">
+                    <p class="book-label">
+                        BOOK OF THE MONTH
+                    </p>
+                    <a href="https://bookclubs.com/books/how-to-read-a-book-a-novel-412236">How to Read a Book: A Heartfelt Novel of Redemption and Unlikely Friendships in a Small Town Bookstore</a>
+                    <h3 class="book-authot">BY Monica Wood</h3>
+                    <p class="book-quote">"The perfect pick to really light a fire under my book club, and yours....A reminder that goodness, and books, can still win in this world."<em>New York Times Book Review</em></p>
+                    <p class="book-quote">"A beautiful, big-hearted treasure of a novel." —Lily King</p>
+                    <p class="book-quote"><strong>National Bestseller</strong> * From the award-winning author of The One-in-a-Million Boy comes a heartfelt, uplifting novel about a chance encounter at a bookstore, exploring redemption, unlikely friendships, and the life-changing power of sharing stories.</p>
+                    
+                    <div class="book-actions">
+                        <button class="add-to-shelves-btn">
+                            ADD TO MY SHELVES
+                        </button>
+                        <button class="discussion-guide-btn">
+                            <span>📖</span> DISCUSSION GUIDE →
+                        </button>
                     </div>
-                    <div class="book-info">
-                        <h2>BOOK OF THE MONTH</h2>
-                        <a href="https://bookclubs.com/books/how-to-read-a-book-a-novel-412236">How to Read a Book: A Heartfelt Novel of Redemption and Unlikely Friendships in a Small Town Bookstore</a>
-                        <p class="book-authot">BY Monica Wood</p>
+                </div>
+            </section>
+            
+            <section class="recommendations">
+                <h2>December's Recommended Reading</h2>
+                <p class="recommendations-subtitle">Monthly inspiration for your next book club read, with discussion questions to guide your meeting.</p>
+                <div class="book-grid">
+                    <div class="book-item">
+                        <p class="book-category">ROMANCE</p>
+                        <img src="https://m.media-amazon.com/images/I/41XcnN7AEKL._SL500_.jpg">
+                        <p> BY LANA FERGUSON</p>
                     </div>
-                    <div class="book-description">
-                        <p>
-                            "The perfect pick to really light a fire under my book club, and yours....A reminder that goodness, and books, can still win in this world." —New York Times Book Review
-                            "A beautiful, big-hearted treasure of a novel." —Lily King
-                            National Bestseller * From the award-winning author of The One-in-a-Million Boy comes a heartfelt, uplifting novel about a chance encounter at a bookstore, exploring redemption, unlikely friendships, and the life-changing power of sharing stories.
-                        </p>
+                    <div class="book-item">
+                        <p class="book-category">YOUNG ADULT</p>
+                        <img src="https://m.media-amazon.com/images/I/41btT-ORENL._SL500_.jpg">
+                        <p> BY E. LOCKHART</p>
                     </div>
-                    <button>
-                        <a href="https://bookclubs.com/signup">ADD TO MY SHELVES</a> 
+                    <div class="book-item">
+                        <p class="book-category">COMING OF AGE</p>
+                        <img src="https://m.media-amazon.com/images/I/41gHEm3bksL._SL500_.jpg">
+                        <p> BY LILI KING</p>
+                    </div>
+                    <div class="book-item">
+                        <p class="book-category">MYSTERY/THRILLER</p>
+                        <img src="https://m.media-amazon.com/images/I/51+T3UeCaQL._SL500_.jpg">
+                        <p> BY DENZEL MEYRICK</p>
+                    </div>
+                    <div class="book-item">
+                        <p class="book-category">HISTORICAL FICTION</p>
+                        <img src="https://m.media-amazon.com/images/I/51ECre+FgBL._SL500_.jpg">
+                        <p> BY KERRY BARRETT</p>
+                    </div>   
+                </div>
+
+                <div class="guide-buttons">
+                    <button class="discussion-guide-btn">
+                        <span>📖</span> DISCUSSION GUIDE →
                     </button>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section>
-            <h2>December's Recommended Reading</h2>
-            <p>Monthly inspiration for your next book club read, with discussion questions to guide your meeting.</p>
-            <div class="book-shelf-container">
-                <div class="book-shelf">
-                    <div class="book">
-                        <p>ROMANCE</p>
-                        <div class="book-pic">
-                            <img src="">
-                        </div>
-                        <div class="info">
-                            BY LANA FEURGASON
-                        </div>
+            <section class="testimonials">
+                <h2>Here are from them...</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonials-card">
+                        <div class="rating">⭐⭐⭐⭐⭐</div>
+                        <h3>EXACTLY THE APP OUR BOOK CLUB NEEDED</h3>
+                        <p>We can keep track of all the books we've read, see the one we are currrently reading, post meetup info and there are discussion questions in the app. Love it!</p>
+                        <p class="testimonial-author">cherrytree611</p>
                     </div>
-
-                    <div class="book">
-                        <p>ROMANCE</p>
-                        <div class="book-pic">
-                            <img src="">
-                        </div>
-                        <div class="info">
-                            BY LANA FEURGASON
-                        </div>
+                    <div class="testimonials-card">
+                        <div class="rating">⭐⭐⭐⭐⭐</div>
+                        <h3>AN ABSOLUTE GAME CHANGER</h3>
+                        <p>If you love books and know a few readers then you definitely need this app to help and inspire you to start your own book club!! All you have to do is choose a name for yur club and this wonderful app will do the rest ❤️.</p>
+                        <p class="testimonial-author">Mochimochi1020</p>
                     </div>
-
-                    <div class="book">
-                        <p>ROMANCE</p>
-                        <div class="book-pic">
-                            <img src="">
-                        </div>
-                        <div class="info">
-                            BY LANA FEURGASON
-                        </div>
-                    </div>
-
-                    <div class="book">
-                        <p>ROMANCE</p>
-                        <div class="book-pic">
-                            <img src="">
-                        </div>
-                        <div class="info">
-                            BY LANA FEURGASON
-                        </div>
+                    <div class="testimonials-card">
+                        <div class="rating">⭐⭐⭐⭐⭐</div>
+                        <h3>GREAT FOR CONNECTING</h3>
+                        <p>Great tool for connecting with your book club! Beter than texting and Facebook groups because the interface has features that are specific to the needs of a book club. </p>
+                        <p class="testimonial-author">-kjessie20</p>
                     </div>
                 </div>
-            </div>
-        </section>
-
+            </section>
+        </main>
+        
         <footer>
-            <div class="footer-nav">
-                <div class="footer-nav-item">
-                    <p class="footer-nav-title">Company</p>
-                    <p class="nav-item">
-                        <a href="/about">About Bookclubs</a>
-                    </p>
-                    <p class="nav-item">
-                        <a href="/privacy-policy">Privacy Policy</a>
-                    </p>
-                    <p class="nav-item">
-                        <a href="/terms-of-use">Terms of Use</a>
-                    </p>
-                    <p class="nav-item">
-                        <a href="/pricing">Pricing</a>
-                    </p>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About BookClubs</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
                 </div>
 
-                <div class="Community">
-                    <p class="footer-nav-title">Community</p>
-                    <p class="nav-item">
-                        <a href="/join-a-book-club">Join a Book Club</a>
-                    </p>
-                    <p class="nav-item">
-                        <a href="/blog">Blog</a>
-                    </p>
+                <div class="footer-section">
+                    <h4>Community</h4>
+                    <ul>
+                        <li><a href="#">Join a Book Club</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
                 </div>
 
-                <div class="footer-nav-item">
-                    <p class="footer-nav-title">Support</p>
-                    <p class="nav-item">
-                        <a href="/about">Discussion Questions</a>
-                    </p>
-                    <p class="nav-item">
-                        <a href="/privacy-policy">How to guides</a>
-                    </p>
-                    <p class="nav-item">
-                        <a href="/terms-of-use">FAQs</a>
-                    </p>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Discussion Questions</a></li>
+                        <li><a href="#">How to Guides</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
                 </div>
-            </div>
-            <div class="copyright">
-                <p>&copy; 2025 Bookclubz, Inc. All rights reserved.</p>
-            </div>
+
+                <div class="footer-section-newsletter">
+                    <h4>Connect</h4>
+                    <p>Join the BookClubs Newsletter for monthly reading recommendations, book club tips, giveaways and more.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Email Address">
+                        <button>✔️</button>
+                    </div>
+                    <div class="copyright">
+                        <p>&copy; 2025 Bookclubz, Inc. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>   
         </footer>
     </div>
 </body>
